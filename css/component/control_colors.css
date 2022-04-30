@@ -1,0 +1,60 @@
+/* css of choose-colors */
+.choose-color{
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 3px rgba(50, 50, 93, 0.11), -1px -1px 2px rgba(50, 50, 93, 0.11);
+    border-radius: 50%;
+}
+
+.choose-colors {
+    display: flex;
+}
+
+#control-box {
+    margin-top: 35px;
+}
+
+/* css of control-options-top */
+.control-top{
+    margin-bottom: 15px;
+}
+
+
+#control-thick {
+    width: 100%;
+}
+
+/* css of control-options-bottom */
+.control-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.control-bottom button:first-child{
+    margin-right: 20px;
+}
+
+.control-bottom button {
+    /* size */
+    width: 100px;
+    height: 30px;
+
+    /* design */
+    border: none;
+    box-shadow: -2px 2px 2px rgba(50, 50, 93, 0.11), 2px 2px 2px rgba(50, 50, 93, 0.11);
+    border-radius: 10px;
+    background-color: #e0e0e0;
+
+    /* design of text */
+    font-size: 18px;
+    font-weight: 600;
+
+    /* transition */
+    transition: all .5s ease-in-out
+}
+
+.control-bottom button:hover{
+    cursor: pointer;
+    background-color: #bdbdbd;
+}
